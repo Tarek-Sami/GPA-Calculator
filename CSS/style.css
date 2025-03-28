@@ -195,3 +195,73 @@ button:active {
 tr:last-child td {
     border-bottom: none;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    table {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 10px 15px;
+    }
+
+    .grade-column {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .delete-btn {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .actions {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    #addBtn, #result {
+        width: 100%;
+    }
+
+    .Final-result {
+        margin: 15px 10px;
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th, td {
+        padding: 8px 12px;
+    }
+
+    input, select {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    #addBtn, #result {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .Final-result {
+        margin: 12px 8px;
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+}
