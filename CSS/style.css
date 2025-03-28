@@ -237,7 +237,7 @@ tr:last-child td {
 
     select {
         background-position: right 8px center;
-        padding-right: 30px !important;
+        padding-right: 20px !important;
     }
 }
 
@@ -268,5 +268,9 @@ tr:last-child td {
         margin: 12px 8px;
         padding: 10px 15px;
         font-size: 0.9rem;
+    }
+    select {
+        background-position: right 5px center;
+        padding-right: 20px !important;
     }
 }
